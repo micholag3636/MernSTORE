@@ -1,0 +1,360 @@
+.Nav {
+    
+    background-color: #131921;
+    height: 80px;
+    width: 100%;
+    display: flex;
+  
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+
+    font-family: 'Lato', sans-serif;
+
+ 
+
+}
+
+
+
+img{
+    height: 50px;
+    width: 100px;
+    margin: 2px;
+
+
+}
+
+.loc{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: white;
+    margin: 2px;
+
+
+}
+
+#sinput{
+
+    width: 900px;
+    height: 35px;
+    border-radius: 0px;
+    margin-bottom: 11px;
+    margin-right: 75px;
+}
+
+
+
+.search{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  
+   
+}
+
+h3{
+
+    color: white;
+}
+
+.sec3{
+    display: flex;
+    align-items: center;
+  
+   
+}
+
+.icon{
+    color: white;
+    margin: 0px;
+}
+
+.logoimg{
+    width: 250px;
+    height: 70px;
+    margin-bottom: 10px;
+    margin-right: 30px;
+
+
+}
+
+#searchb{
+    float: left;
+  width: 20%;
+  padding: 10px;
+  color: 393735;
+  font-size: 17px;
+  border-left: none; 
+  height: 37px;
+  width: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin-bottom: 11px;
+  background-color: #FEBD69;
+  border: 0px;
+ 
+
+
+}
+
+
+.ukflag{
+    height: 17px;
+    width: 25px;
+    margin-left: 25px;
+
+
+
+}
+
+.flagi{
+    color: white;
+}
+
+
+/*
+.slog{
+    height: 38px;
+    background-color: #FEBD69;
+    width: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3px;
+    margin-bottom: 11px;
+
+
+
+
+
+}
+*/
+
+.navbut{
+    background-color: #131921;
+    height: 30px;
+    border: none;
+    display: flex;
+    flex-direction: row;
+   
+    align-items: center;
+
+    justify-content: center;
+    margin-bottom: 15px;
+    margin-right: 30px;
+ 
+
+
+
+
+}
+
+.navbut:focus{
+    outline: 0px;
+
+
+}
+
+
+
+
+
+.dropicon{
+    color: white;
+    margin: 0px;
+    padding: 0px;
+
+
+
+
+}
+
+
+.droph3{
+    padding: 0px;
+    margin: 0px;
+    
+}
+
+#droph3s{
+    margin-right: 18px;
+
+
+}
+
+#addressh3{
+    margin-right: 25px;
+
+}
+
+.dropdown-about{
+    display: none;
+   
+    position: absolute;
+    background-color:#131921;
+    min-width: 158px;
+    z-index: 1;
+    height: 120px;
+    border-radius: 5px;
+    color: white;
+
+    
+   
+
+    
+
+
+
+    
+
+  
+
+
+}
+
+.dropdown-about a:hover{
+    background-color:#131921;
+    color: white;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+   
+
+
+    
+}
+
+#aboutus:hover .dropdown-about{
+    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    justify-content: space-between;
+   
+  
+   
+  
+   
+
+   
+
+ 
+    
+
+}
+
+#aboutus:hover .navbutabout{
+    background-color: transparent
+
+
+}
+
+
+.navbutabout:focus{
+    outline: 0px;
+}
+
+
+
+.navbutabout{
+    background-color: #131921;
+    height: 30px;
+    border: none;
+    display: flex;
+    flex-direction: row;
+   
+    align-items: center;
+
+    justify-content: center;
+    margin-bottom: 15px;
+    margin-right: 30px;
+    cursor: pointer;
+
+    
+ 
+
+
+
+
+}
+
+#aboutus{
+    position: relative;
+    display: inline-block;
+  
+}
+
+.dropdownb{
+    height: 40px;
+    width: 159px;
+    background-color:#131921;
+    color: white;
+    border: none;
+   
+}
+
+.dropdownb:focus{
+    outline: 0px;
+}
+
+.dropdownb:hover{
+    background-color: #1b2129;
+    
+}
+
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+
+
+.navbutcart{
+    background-color: #29303a;
+    height: 40px;
+    border: none;
+    display: flex;
+    
+    flex-direction: row;
+   
+    align-items: center;
+
+    justify-content: center;
+    margin-bottom: 15px;
+    margin-right: 30px;
+    border-radius: 5px;
+    color:white;
+    cursor: pointer;
+    
+ 
+
+
+
+
+}
+
+.navbutcart:focus{
+    outline: none;
+}
+
+.navbutcart h2{
+    position: relative;
+    right: 14px;
+  
+ 
+
+
+
+
+}

@@ -1,0 +1,12 @@
+.Infobody{
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center
+
+
+}
+
+
+
+p {font-family:Sans-Serif; text-align:left; font-size: 20px}
