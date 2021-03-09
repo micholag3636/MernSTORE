@@ -6,16 +6,19 @@
     display: flex;
   
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-between;;
     align-items: center;
     margin-bottom: 0px;
     padding-bottom: 0px;
+    z-index: 50;
+ 
 
     font-family: 'Lato', sans-serif;
 
  
 
 }
+
 
 
 
@@ -76,8 +79,9 @@ h3{
 .logoimg{
     width: 250px;
     height: 70px;
+    margin-top: 15px;
     margin-bottom: 10px;
-    margin-right: 30px;
+
 
 
 }
@@ -148,12 +152,12 @@ h3{
     justify-content: center;
     margin-bottom: 15px;
     margin-right: 30px;
+
  
 
-
-
-
 }
+
+
 
 .navbut:focus{
     outline: 0px;
@@ -182,11 +186,6 @@ h3{
     
 }
 
-#droph3s{
-    margin-right: 18px;
-
-
-}
 
 #addressh3{
     margin-right: 25px;
@@ -195,63 +194,67 @@ h3{
 
 .dropdown-about{
     display: none;
+
    
     position: absolute;
+  
+
+
+    
     background-color:#131921;
     min-width: 158px;
     z-index: 1;
     height: 120px;
     border-radius: 5px;
     color: white;
-
-    
-   
-
-    
-
-
-
-    
-
+    transition: 0.2s 1s;
   
-
-
 }
 
-.dropdown-about a:hover{
+.dropdown-about button:hover{
     background-color:#131921;
     color: white;
     
-    display: flex;
+    display: block;
+
+  
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
     text-decoration: none;
+    transition-delay: 1s;
+
+  
+    
    
 
 
     
 }
+
+
 
 #aboutus:hover .dropdown-about{
     display: block;
+    transition-delay: 5s;
     display: flex;
+   
+ 
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    justify-content: space-between;
+    position: absolute;
    
   
-   
-  
-   
-
-   
-
- 
-    
 
 }
+
+
+
+
+
+
+
 
 #aboutus:hover .navbutabout{
     background-color: transparent
@@ -270,15 +273,16 @@ h3{
     background-color: #131921;
     height: 30px;
     border: none;
-    display: flex;
-    flex-direction: row;
+    display: block;
+    flex-direction: column;
    
     align-items: center;
 
     justify-content: center;
-    margin-bottom: 15px;
+    
     margin-right: 30px;
     cursor: pointer;
+    margin-bottom: 12px;
 
     
  
@@ -287,6 +291,49 @@ h3{
 
 
 }
+.droph3:hover{
+    background-color: #24303f;
+    border-radius: 5px;
+    height: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 90px;
+
+}
+.droph3:active{
+       background-color: #24303f;
+    border-radius: 5px;
+    height: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 90px;
+
+}
+
+
+
+
+
+
+
+#droph3s:hover{
+    background-color: #24303f;
+    border-radius: 5px;
+    height: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 90px;
+
+}
+
+
+
 
 #aboutus{
     position: relative;
@@ -300,6 +347,9 @@ h3{
     background-color:#131921;
     color: white;
     border: none;
+    display: block;
+    transition-delay: 5s;
+   
    
 }
 
@@ -307,15 +357,17 @@ h3{
     outline: 0px;
 }
 
-.dropdownb:hover{
-    background-color: #1b2129;
-    
-}
+
 
 
 a{
     color: white;
     text-decoration: none;
+}
+
+#topdrop{
+    margin-top: 170px;
+
 }
 
 
@@ -357,4 +409,114 @@ a{
 
 
 
+}
+
+
+
+
+
+
+
+.hamburger_menu{
+    width: 30px;
+    height: 30px;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+ 
+    list-style: none;
+    margin-right: 20px;
+  
+
+
+
+}
+
+.nav_link{
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+.nav_link{
+    display: block;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    transition: 1s;
+
+    
+}
+
+
+
+
+
+.hamburger_menu > div{
+    width: 100%;
+    height: 3px;
+    background-color: #f4f4f4;;
+    color: #f4f4f4;
+}
+
+.hamburger_menu:hover{
+   
+}
+
+@media (max-width: 960px){
+    .nav_link{
+        display: none;
+     
+    }
+
+
+    .hamburger_menu{
+        display: flex;
+   
+    }
+
+
+
+}
+
+
+@media (max-width: 500px){
+    .logoimg {
+        height: 4rem;
+        width: 11rem;
+    }
+}
+
+.navbutabout:hover{
+    background-color: #253a55;
+}
+
+
+.dropdowns_wrapper{
+    position: relative;
+  display: inline-block;
+
+
+
+
+
+}
+
+.dropdowns_wrapper:hover .dropdown-about{
+    display: block;
+    transition: 1s;
+    position: absolute;
+}
+
+
+.dropdowns_wrappera{
+    position: relative;
+    display: inline-block;
+}
+
+.navbutcart h2{
+    margin-left: 20px;
 }

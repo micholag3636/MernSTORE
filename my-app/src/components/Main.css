@@ -1,8 +1,8 @@
 #Main{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
 
    
 
@@ -16,6 +16,29 @@
 .swiperc{
     margin-top: 160px;
     margin-left: 10px;
+    width: 100px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:  center;
+
+}
+
+
+.Productsc{
+    width: 400px;
+ 
+
+}
+
+.swiper-button-next{
+    margin-right: 90px;
+  
+}
+
+.swiper-button-prev{
+
+
 }
 
 
@@ -29,17 +52,18 @@
 
 
 
+#swiper-button-nextc{
+  
+
+    position: relative;
+  
+    left: 720px;
 
 
 
 
-
-
-
-
-
-
-
+  
+}
 
 
 

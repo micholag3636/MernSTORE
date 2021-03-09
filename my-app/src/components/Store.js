@@ -33,7 +33,7 @@ function Store() {
                     key={product._id}
                     productId = {product._id}
                     name={product.name}
-                    price={product.pice}
+                    price={product.price}
                     description={product.description}
                     imageUrl={product.imageUrl}
                     

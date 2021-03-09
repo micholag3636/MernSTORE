@@ -12,9 +12,14 @@ import Support from "./components/Support.js"
 import Team from "./components/Team.js"
 import Founders from "./components/Founders.js"
 import Company from "./components/Company.js"
+import Backdrop from "./components/Backdrop.js"
+import SideDrawer from "./components/SideDrawer.js"
+import {useState} from "react"
 
 
 function App() {
+
+  const [sideToggle, setSideToggle] = useState(false)
 
   return (
     <Router>
@@ -25,7 +30,10 @@ function App() {
       <main>
 
 
-      <Nav />
+      <Nav click={() => setSideToggle(true)}/>
+      
+      <SideDrawer show={sideToggle} click={() => setSideToggle(false)}  />
+      <Backdrop show={sideToggle} click={() => setSideToggle(false)} />
 
 
     
